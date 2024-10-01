@@ -1,8 +1,5 @@
 package pageObjects;
 
-import static org.testng.Assert.assertTrue;
-import static org.testng.Assert.fail;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

@@ -1,9 +1,9 @@
 package testRunner;
 
 import org.junit.runner.RunWith;
-
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
+
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
@@ -27,6 +27,5 @@ import io.cucumber.junit.CucumberOptions;
 					//tags="@sanity and not @regression" //Scenarios tagged with @sanity but not tagged with @regression
 					//tags="@sanity or @regression" //Scenarios tagged with either @sanity or @regression
 		)
-public class TestRunner {
-
-		}
+public class TestRunner{
+}
